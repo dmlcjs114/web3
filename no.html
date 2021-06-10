@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1-html </title>
+  <meta charset="utf-8">
+  <style>
+    a{
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0px;
+        padding: 20px;
+    }
+    #active{
+      color:red;
+    }
+     .saw{
+        color:gray; }
+
+  body{
+    margin: 0px;
+  }
+
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+   h2,p{
+     border-left: 1px solid gray;
+     margin: 0px;
+     padding: 20px;
+   }
+
+
+      @media(max-width:800px) {
+      #grid{
+        display: block;
+      }
+      ol{
+        border-right: none;
+      }
+       h1{
+         border-bottom: none;
+       }
+
+      }
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+   <h1><a href="index.html">WEB</a></h1>
+ <div id="grid"><div>
+  <ol>
+  <li> <a href="1.html"class="saw" id="active">HTML</a> </li>
+  <li><a href="2.html"class="saw"> CSS</a></li>
+  <li><a href="3.html"class="saw">JavaScript</a></li>
+  <li><a href="no.html">NO</a></li>
+</ol> </div>
+<img src="다운로드.gif" width="90%">
+  <div> </div></div>
+</body>
+</html>
