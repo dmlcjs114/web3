@@ -1,0 +1,45 @@
+a{
+  color:black;
+  text-decoration: none;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0px;
+    padding: 20px;
+}
+#active{
+  color:red;
+}
+ .saw{
+    color:gray; }
+
+body{
+  background-color: lightpink;
+   margin: 0px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+h2,p{
+ border-left: 1px solid gray;
+ margin: 0px;
+ padding: 20px;
+}
+
+
+  @media(max-width:800px) {
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+  }
+   h1{
+     border-bottom: none;
+   }
+
+  }
